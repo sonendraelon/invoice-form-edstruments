@@ -6,8 +6,7 @@ Welcome to the Invoice Form with Login application! This project is a React-base
 
 ## Live Demo
 
-[Check out the live demo here](https://invoice-form-sonendra.netlify.app/invoice)
-
+https://invoice-form-sonendra.netlify.app/invoice
 ## Repository
 
 [Visit the GitHub repository](https://github.com/sonendraelon/invoice-form-edstruments.git)
