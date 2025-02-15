@@ -1,56 +1,69 @@
 # Invoice Form with Login
 
 ## Overview
-This project is a React-based application that replicates the provided design. It includes a login system, a functional invoice form, and data persistence using local storage. The form functionality is implemented using Formik, ensuring validation and data integrity. The application also supports PDF uploads and displays them using `react-pdf`.
+
+Welcome to the Invoice Form with Login application! This project is a React-based application that includes a secure login system, a functional invoice form, and data persistence using local storage. The form functionality is implemented using Formik, ensuring validation and data integrity. The application also supports PDF uploads and displays them seamlessly.
 
 ## Live Demo
-[Provide the live demo link here]
+
+[Check out the live demo here](#)
 
 ## Repository
-https://github.com/sonendraelon/invoice-form-edstruments.git
+
+[Visit the GitHub repository](#)
+
 ## Features
+
 ### 1. Login System
-- Users can log in using a username and password.
-- Form validation is handled using Formik.
-- User sessions are stored in localStorage.
-- If a session exists, users are auto-logged in.
-- Logout functionality clears the session and redirects to the login page.
+
+- **Secure Authentication:** Users can log in using a username and password.
+- **Formik Validation:** Form validation is handled using Formik.
+- **Session Management:** User sessions are stored in localStorage.
+- **Auto-login:** If a session exists, users are auto-logged in.
+- **Logout:** Logout functionality clears the session and redirects to the login page.
 
 ### 2. UI and Design Replication
-- The application accurately replicates the given design.
-- Responsive and visually aligned with the design specifications.
+
+- **Accurate Design:** The application accurately replicates the given design.
+- **Responsive:** Fully responsive and visually aligned with the design specifications.
 
 ### 3. Functional Invoice Form
-- Built using Formik with input validation.
-- Ensures data integrity and user-friendly error messages.
-- Dynamic styling highlights validation errors.
+
+- **Formik Integration:** Built using Formik with input validation.
+- **Data Integrity:** Ensures data integrity and user-friendly error messages.
+- **Dynamic Styling:** Highlights validation errors dynamically.
 
 ### 4. Data Persistence with LocalStorage
-- Stores form data upon submission.
-- Ensures form data persists across page reloads.
-- Pre-populates form fields with saved data when revisited.
+
+- **Form Data Storage:** Stores form data upon submission.
+- **Persistence:** Ensures form data persists across page reloads.
+- **Auto-fill:** Pre-populates form fields with saved data when revisited.
 
 ### 5. PDF Upload and Display
-- Users can upload a PDF file from their local system.
-- The uploaded PDF is displayed within the application using `react-pdf`.
+
+- **PDF Upload:** Users can upload a PDF file from their local system.
+- **PDF Display:** The uploaded PDF is displayed within the application.
 
 ### 6. Populate Form Fields with Dummy Data
-- A button is included to auto-fill form fields with predefined dummy data.
-- The uploaded PDF section is also populated with sample data.
+
+- **Auto-fill Button:** A button is included to auto-fill form fields with predefined dummy data.
 
 ## Bonus Features
-- Comprehensive form validation.
-- Dynamic styling to indicate validation errors.
-- User-friendly error messages.
+
+- **Comprehensive Validation:** Extensive form validation for all fields.
+- **Dynamic Error Indication:** Dynamic styling to indicate validation errors.
+- **User-friendly Messages:** Clear and user-friendly error messages.
 
 ## Technology Stack
-- React for building the user interface.
-- Formik for form management and validation.
-- LocalStorage for data persistence.
-- `react-pdf` for PDF rendering.
+
+- **React:** For building the user interface.
+- **Formik:** For form management and validation.
+- **LocalStorage:** For data persistence.
 
 ## Project Structure & Flow
+
 1. **Login Page**
+
    - Users enter credentials and log in.
    - Credentials are validated using Formik.
    - Session is stored in localStorage upon success.
@@ -58,33 +71,66 @@ https://github.com/sonendraelon/invoice-form-edstruments.git
    - Logout clears the session and redirects users to the login page.
 
 2. **Main Application Interface**
+
    - Displays the invoice form.
    - Users can fill in the form with necessary details.
    - Form data is stored in localStorage upon submission.
    - Users can upload and view a PDF file.
-   - A dummy data button fills form fields and loads a sample PDF.
+   - A dummy data button fills form fields with sample data.
 
 3. **Data Persistence**
+
    - Form data is saved in localStorage.
    - When the user revisits, saved data is auto-loaded.
-   
+
 4. **PDF Upload & Display**
+
    - Users can upload a PDF file.
-   - The file is displayed using `react-pdf`.
+   - The file is displayed within the application.
+
+## Login Credentials
+
+- **Username:** user
+- **Password:** password
 
 ## Installation & Setup
-1. Clone the repository:
+
+1. **Clone the repository:**
    ```sh
    git clone [repository-url]
-   cd invoice-form-login
+   cd invoice-form
    ```
-2. Install dependencies:
+2. **Install dependencies:**
    ```sh
    npm install
    ```
-3. Start the development server:
+3. **Start the development server:**
    ```sh
    npm start
    ```
 
+## Screenshots
 
+### Login Page
+
+![Login Page](#)
+
+### Invoice Form
+
+![Invoice Form](#)
+
+### PDF Upload
+
+![PDF Upload](#)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For any inquiries or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
