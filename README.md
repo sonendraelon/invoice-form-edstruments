@@ -6,7 +6,14 @@ Welcome to the Invoice Form with Login application! This project is a React-base
 
 ## Live Demo
 
-https://invoice-form-edstruments.onrender.com/login
+https://invoice-form-edstruments.onrender.com
+
+
+## Login Credentials
+
+- **Username:** user
+- **Password:** password
+
 
 ## Repository
 
@@ -88,10 +95,6 @@ https://invoice-form-edstruments.onrender.com/login
    - Users can upload a PDF file.
    - The file is displayed within the application.
 
-## Login Credentials
-
-- **Username:** user
-- **Password:** password
 
 ## Installation & Setup
 
