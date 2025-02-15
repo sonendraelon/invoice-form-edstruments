@@ -7,8 +7,7 @@ This project is a React-based application that replicates the provided design. I
 [Provide the live demo link here]
 
 ## Repository
-[Provide the GitHub repository link here]
-
+https://github.com/sonendraelon/invoice-form-edstruments.git
 ## Features
 ### 1. Login System
 - Users can log in using a username and password.
